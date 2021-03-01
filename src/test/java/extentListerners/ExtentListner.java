@@ -52,7 +52,6 @@ public class ExtentListner implements ITestListener {
 
 	public void onFinish(ITestContext context) {
 		eventManger.reports.flush();
-
 	}
 
 }
